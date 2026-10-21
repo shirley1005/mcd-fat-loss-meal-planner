@@ -1,0 +1,13 @@
+// 复制本文件为 mcp-config.json 后，把 ${MCD_MCP_TOKEN} 替换为你自己在麦当劳开放平台申请到的真实 Token。
+// 切勿将真实 Token 提交到代码仓库或公开渠道。
+{
+  "mcpServers": {
+    "mcd-mcp": {
+      "transport": "streamable-http",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer ${MCD_MCP_TOKEN}"
+      }
+    }
+  }
+}
